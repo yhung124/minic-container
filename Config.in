@@ -1,2 +1,2 @@
-# Add the external packaged you need to here
-source "$BR2_EXTERNAL_MINIC_CONTAINER_PATH/packages/etcd/Config.in"
+# Add the external packages you need to here
+source "$BR2_EXTERNAL_MINIC_CONTAINER_PATH/package/etcd/Config.in"
