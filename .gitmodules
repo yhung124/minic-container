@@ -1,0 +1,6 @@
+[submodule "containers/etcd/etcd"]
+	path = containers/etcd/etcd
+	url = https://github.com/coreos/etcd.git
+[submodule "containers/flannel/flannel"]
+	path = containers/flannel/flannel
+	url = https://github.com/coreos/flannel.git
