@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo "A fake command: $0"
