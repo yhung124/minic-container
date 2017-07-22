@@ -1,0 +1,2 @@
+# Add the external packaged you need to here
+source "$BR2_EXTERNAL_MINIC_CONTAINER_PATH/containers/packages/etcd/Config.in"

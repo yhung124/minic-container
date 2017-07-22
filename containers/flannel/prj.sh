@@ -1,0 +1,5 @@
+ORIG_PRJ="flannel"
+ORIG_DOCKERFILE="Dockerfile.amd64"
+FAKE_IMG="$(cat ${ORIG_PRJ}/${ORIG_DOCKERFILE} | grep 'FROM' | cut -d ' ' -f 2)"
+TAG="$(git --git-dir=${ORIG_PRJ}/.git describe --tags)"
+ORIG_IMG="flannel"
